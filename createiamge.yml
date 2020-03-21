@@ -1,0 +1,5 @@
+---
+- name: build image
+  docker_image:
+    path: /root/docker
+    name: janaimage

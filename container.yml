@@ -1,0 +1,10 @@
+---
+- name: create container
+  docker_container:
+     name: jana
+     image: janaimage
+     state: started
+     ports: 
+     - "8080:80"
+     tty: true
+     detach: true
